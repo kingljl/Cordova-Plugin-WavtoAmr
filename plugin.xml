@@ -56,7 +56,7 @@
 
         <!-- Wechat Official -->
         <header-file src="src/ios/VoiceConvert/VoiceConvert.h" />
-        <source-file src="src/ios/VoiceConvert/VoiceConvert.m" />
+        <source-file src="src/ios/VoiceConvert/VoiceConvert.mm" />
         <header-file src="src/ios/VoiceConvert/amrwapper/amrFileCodec.h" />
         <source-file src="src/ios/VoiceConvert/amrwapper/amrFileCodec.m" />
         <header-file src="src/ios/VoiceConvert/amrwapper/wav.h" />
