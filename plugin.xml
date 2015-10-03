@@ -64,8 +64,8 @@
         <header-file src="src/ios/VoiceConvert/opencore-amrnb/interf_dec.h" />
         <header-file src="src/ios/VoiceConvert/opencore-amrnb/interf_enc.h" />
         <source-file src="src/ios/VoiceConvert/lib/libopencore-amrnb.a" framework="true" />
-        <header-file src="src/ios/VoiceConvert/opencore-amrnb/def_if.h" />
-        <header-file src="src/ios/VoiceConvert/opencore-amrnb/if_rom.h" />
+        <header-file src="src/ios/VoiceConvert/opencore-amrwb/dec_if.h" />
+        <header-file src="src/ios/VoiceConvert/opencore-amrwb/if_rom.h" />
         <source-file src="src/ios/VoiceConvert/lib/libopencore-amrwb.a" framework="true" />
 
         <!-- Other required frameworks -->
