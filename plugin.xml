@@ -35,8 +35,8 @@
     </info>
 
     <!-- js -->
-    <js-module src="www/WavToAmrUtil.js" name="WavToAmrUtil">
-        <clobbers target="WavToAmrUtil" />
+    <js-module src="www/WavToAmrUtil.js" name="WavToAmr">
+        <clobbers target="WavToAmr" />
     </js-module>
 
 
@@ -44,7 +44,7 @@
     <platform name="ios">
 
        <config-file target="config.xml" parent="/*">
-            <feature name="WavToAmrUtil">
+            <feature name="WavToAmr">
                 <param name="ios-package" value="CDVwavToAmr"/>
                 <param name="onload" value="true" />
             </feature>
