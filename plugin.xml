@@ -45,14 +45,14 @@
 
        <config-file target="config.xml" parent="/*">
             <feature name="WavToAmr">
-                <param name="ios-package" value="CDVwavToAmr"/>
+                <param name="ios-package" value="CDwavToAmr"/>
                 <param name="onload" value="true" />
             </feature>
         </config-file>
 
         <!-- Plugin source code -->
-        <header-file src="src/ios/CDVwavToAmr.h" />
-        <source-file src="src/ios/CDVwavToAmr.m" />
+        <header-file src="src/ios/CDwavToAmr.h" />
+        <source-file src="src/ios/CDwavToAmr.m" />
 
         <!-- Wechat Official -->
         <header-file src="src/ios/VoiceConvert/VoiceConvert.h" />
