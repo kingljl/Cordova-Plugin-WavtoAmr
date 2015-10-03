@@ -1,5 +1,5 @@
 
-#import "ViewController.h"
+#import "CDVwavToAmr.h"
 
 
 @implementation CDVwavToAmr
