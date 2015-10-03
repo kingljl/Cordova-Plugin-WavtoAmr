@@ -24,7 +24,7 @@ module.exports = {
         if ( "path" in sourceDate && "fileName" in sourceDate && "typeFlag" in sourceDate  ) {
             successCallback = checkVal( successCallback );
             errorCallback = checkVal( errorCallback );
-            exec(successCallback, errorCallback, "WavToAmrUtil", "amrWavAudioConvent", [sourceDate]);
+            exec(successCallback, errorCallback, "WavToAmr", "amrWavAudioConvent", [sourceDate]);
         }else{
             errorCallback && errorCallback("Missing parameters!");
         }
