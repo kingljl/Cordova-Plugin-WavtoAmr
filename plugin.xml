@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="Cordova.Plugin.WavToAmrUtil"
+        id="Cordova.Plugin.WavToAmr"
         version="0.0.1-dev">
 
     <name>WavToAmr</name>
@@ -10,7 +10,8 @@
     <description>This plug-in is the use of the network VoiceConvert code changes to support 32 and 64 OS WAV, support into AMR conversion, this plug-in supports IOS, Android. Follow up with demand will support</description>
 
     <repo>https://github.com/katzer/cordova-plugin-local-notifications.git</repo>
-
+    <repo>https://github.com/iVanPan/Cordova_QQ</repo>
+    <issue>https://github.com/iVanPan/Cordova_QQ/issues</issue>
     <keywords>WavToAmr, wav, amr , AmrToWav</keywords>
 
     <license>Apache 2.0</license>
