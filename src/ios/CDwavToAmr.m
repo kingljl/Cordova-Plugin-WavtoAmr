@@ -5,9 +5,9 @@
 @implementation CDwavToAmr : CDVPlugin
 // @synthesize originWav,convertAmr,convertWav;
 /**
-*
-*
-*
+*	amr 和 wav的相互转换工具
+*	VoiceConverter工具提供的开源库
+*	兼容64位系统。最高支持到ios 9.02 版本
 */
 - (void)amrWavAudioConvent:(CDVInvokedUrlCommand *)command{
 	NSDictionary *args = [command.arguments objectAtIndex:0];
