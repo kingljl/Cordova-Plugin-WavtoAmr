@@ -3,7 +3,7 @@
 #import <TencentOpenAPI/TencentOAuth.h>
 #import "VoiceConverter.h"
 
-@interface CDVwavToAmr : CDVPlugin <TencentSessionDelegate>
+@interface CDwavToAmr : CDVPlugin <TencentSessionDelegate>
 
 // @property(nonatomic, copy) NSString *callback;
 // @property (nonatomic , copy)     NSString                *originWav;         //原wav文件名

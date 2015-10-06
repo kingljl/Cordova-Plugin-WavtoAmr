@@ -2,7 +2,7 @@
 #import "CDwavToAmr.h"
 
 
-@implementation CDVwavToAmr
+@implementation CDwavToAmr
 // @synthesize originWav,convertAmr,convertWav;
 /**
 *
