@@ -21,12 +21,12 @@
     		NSMutableDictionary *Dic = [NSMutableDictionary dictionaryWithCapacity:2];
         	switch( typeFlag ){
 	    		case 1:
-	    			[VoiceConverter amrToWav:[pathAndName stringByAppendingString:@"amr"] wavSavePath:[pathAndName stringByAppendingString:@"wav"]];
-	    			[Dic setObject:[pathAndName stringByAppendingString:@"wav"] forKey:@"wavName"];
+	    			[VoiceConverter amrToWav:[pathAndName stringByAppendingString:@".amr"] wavSavePath:[pathAndName stringByAppendingString:@".wav"]];
+	    			[Dic setObject:[pathAndName stringByAppendingString:@".wav"] forKey:@"wavName"];
 	    			break;
 	    		default:
-	    			[VoiceConverter wavToAmr:[pathAndName stringByAppendingString:@"wav"] amrSavePath:[pathAndName stringByAppendingString:@"amr"]];
-	    			[Dic setObject:[pathAndName stringByAppendingString:@"amr"] forKey:@"amrName"];
+	    			[VoiceConverter wavToAmr:[pathAndName stringByAppendingString:@".wav"] amrSavePath:[pathAndName stringByAppendingString:@".amr"]];
+	    			[Dic setObject:[pathAndName stringByAppendingString:@".amr"] forKey:@"amrName"];
 	    	}
     	
 	        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:Dic];
