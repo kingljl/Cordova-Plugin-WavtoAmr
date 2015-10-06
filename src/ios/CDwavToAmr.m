@@ -1,5 +1,5 @@
 
-#import "CDVwavToAmr.h"
+#import "CDwavToAmr.h"
 
 
 @implementation CDVwavToAmr
