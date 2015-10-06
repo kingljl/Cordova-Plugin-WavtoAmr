@@ -1,9 +1,8 @@
 #import <Cordova/CDVPlugin.h>
 #import <Cordova/CDVPluginResult.h>
-#import <TencentOpenAPI/TencentOAuth.h>
 #import "VoiceConverter.h"
 
-@interface CDwavToAmr : CDVPlugin <TencentSessionDelegate>
+@interface CDwavToAmr : CDVPlugin
 
 // @property(nonatomic, copy) NSString *callback;
 // @property (nonatomic , copy)     NSString                *originWav;         //原wav文件名

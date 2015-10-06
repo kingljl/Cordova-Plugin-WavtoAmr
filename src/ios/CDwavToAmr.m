@@ -2,7 +2,7 @@
 #import "CDwavToAmr.h"
 
 
-@implementation CDwavToAmr
+@implementation CDwavToAmr : CDVPlugin
 // @synthesize originWav,convertAmr,convertWav;
 /**
 *
@@ -16,7 +16,7 @@
     	@try {
     		NSString *path = [args objectForKey:@"path"];
     		NSString *fileName = [args objectForKey:@"fileName"];
-    		NSInteger typeFlag = [args objectForKey:@"typeFlag"];
+    		NSInteger typeFlag = [[args objectForKey:@"typeFlag"] intValue];
     		NSString *pathAndName = [path stringByAppendingString:[[fileName componentsSeparatedByString:@"."] objectAtIndex:0]];
     		NSMutableDictionary *Dic = [NSMutableDictionary dictionaryWithCapacity:2];
         	switch( typeFlag ){
